@@ -11,4 +11,9 @@
 * Processed the data (scaled, encoded categorical data, drop columns/rows) and trained 4 models. The RandomForestRegressor has the lowest Mean Absolute Error and highest R2-Score
 
 ## Results:
-
+| Model | MAE | MSE | R2-Score |
+| --- | --- | --- | --- |
+| KNeighborsRegressor | 3257 | 3.32e+07 | 0.92 |
+| LinearRegression | 12387 | 2.26e+08 | 0.45 |
+| **RandomForestRegressor** | 1768 | 1.38e+07 | 0.97 |
+| GradientBoostingRegressor | 3951 | 4.12e+07 | 0.90 |
